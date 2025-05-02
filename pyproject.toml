@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "clahe" # Ganti dengan nama proyek Anda
+version = "0.1.0"
+description = "" # Tambahkan deskripsi singkat proyek Anda
+authors = ["Your Name <you@example.com>"] # Ganti dengan nama dan email Anda
+readme = "README.md" # Jika Anda memiliki file README
+
+[tool.poetry.dependencies]
+python = "^3.9" # Sesuaikan dengan versi Python yang Anda gunakan
+opencv-python = "*"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
