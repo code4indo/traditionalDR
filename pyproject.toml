@@ -7,7 +7,7 @@ readme = "README.md" # Jika Anda memiliki file README
 
 [tool.poetry.dependencies]
 python = "^3.9" # Sesuaikan dengan versi Python yang Anda gunakan
-opencv-python = "*"
+opencv-contrib-python = "*"
 numpy = "*"
 
 [build-system]
